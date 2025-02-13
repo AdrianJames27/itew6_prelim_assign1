@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: "/itew6_prelim_assign1/"
+  base: "/"
 })
