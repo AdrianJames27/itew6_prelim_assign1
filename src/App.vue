@@ -1,6 +1,11 @@
 <template>
-  <div>
-    
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/skills">Skills</router-link>
+      <router-link to="/contact">Contact</router-link>
+    </nav>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -16,5 +21,13 @@
 </script>
 
 <style>
-  
+  #app {
+    height: 100%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
