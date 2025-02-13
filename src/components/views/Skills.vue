@@ -120,7 +120,7 @@
 
                 <template #description>
                     <h3 class="description">
-                        <li>A variant of Artifact RNG is built from this technologies</li>
+                        <li>A variant of Artifact RNG is built from these technologies</li>
                         <li>
                             This is the time that I really have to create my own components. Because in Java Swing,
                             there are already built-in components and you will just have to modify it default look
