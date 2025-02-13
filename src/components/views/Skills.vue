@@ -59,16 +59,34 @@
 
             <Card>
                 <template #image>
-                    <img class="custom-size" src="https://external-content.duckduckgo.com/ip3/api.jqueryui.com.ico" />
+                    <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" />
                 </template>
 
                 <template #name>
-                    <p class="name">jQuery UI</p>
+                    <p class="name">MySQL</p>
                 </template>
 
                 <template #description>
                     <h3 class="description">
-                        <li>Only used in my Avatar Stat RNG Project because im curious of this library</li>
+                        <li>My first and most used database programming languages</li>
+                    </h3>
+                </template>
+            </Card>
+
+            <Card>
+                <template #image>
+                    <img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" />
+                </template>
+
+                <template #name>
+                    <p class="name">Mongo DB</p>
+                </template>
+
+                <template #description>
+                    <h3 class="description">
+                        <li>My second database programming language</li>
+                        <li>Only tried it once for the previous subject</li>
+                        <li>It's a JSON-based database and not relational</li>
                     </h3>
                 </template>
             </Card>
