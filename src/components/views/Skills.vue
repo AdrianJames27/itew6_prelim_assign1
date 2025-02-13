@@ -258,6 +258,25 @@
                     </h3>
                 </template>
             </Card>
+
+            <h3 class="mt-20">Version Controls</h3>
+
+            <Card>
+                <template #image>
+                    <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" />
+                </template>
+
+                <template #name>
+                    <p class="name">Git</p>
+                </template>
+
+                <template #description>
+                    <h3 class="description">
+                        <li>I know the basic knowledge of git like clone, push, adding item to stage, creating new branches</li>
+                        <li>Mostly I use the Github Desktop instead of CLI</li>
+                    </h3>
+                </template>
+            </Card>
         </PageContent>
     </div>
 </template>
