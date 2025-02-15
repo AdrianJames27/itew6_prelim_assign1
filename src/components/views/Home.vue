@@ -15,22 +15,32 @@
                 which is also built with web technologies (HTML, CSS, jQuery, and jQuery UI), also PWA.
             </p>
 
-            <h3 class="mt-20">Artifact RNG PWA</h3>
-            <iframe class="embedded-content" src="https://akamine20496.github.io/artifact-rng-pwa/" frameborder="0"></iframe>
+            <OGCard 
+                title="Artifact RNG PWA"
+                description="Generate random artifact stat or input your own sub-stats to 'guess' outcomes. Available as a Progressive Web App (PWA)."
+                imageLink="https://akamine20496.github.io/artifact-rng-pwa/asset/Amber_Icon512.png"
+                webPageLink="https://akamine20496.github.io/artifact-rng-pwa/"
+            />
 
-            <h3 class="mt-20">Avatar Stat RNG</h3>
-            <iframe class="embedded-content" src="https://akamine20496.github.io/avatar-stat-rng/" frameborder="0"></iframe>
+            <OGCard 
+                title="Avatar Stat RNG"
+                description="Generate random avatar stat to your avatar costume in Toram Online."
+                imageLink="https://akamine20496.github.io/avatar-stat-rng/icon/icon512.png"
+                webPageLink="https://akamine20496.github.io/avatar-stat-rng/"
+            />
         </PageContent>
     </div>
 </template>
 
 <script>
+import OGCard from '../OGCard.vue';
 import PageContent from '../PageContent.vue';
 
 export default {
     name: 'Home',
     components: {
-        PageContent
+        PageContent,
+        OGCard
     }
 }
 </script>

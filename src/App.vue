@@ -10,24 +10,29 @@
 </template>
 
 <script>
-  export default {
-    name: 'App',
-    data() {
-      return {
+export default {
+  name: 'App',
+  data() {
+    return {
 
-      }
     }
   }
+}
 </script>
 
 <style>
-  #app {
-    height: 100%;
-  }
+#app {
+  height: 100%;
+}
 
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.router-link-active {
+  color: #ffffff;
+  background: #e8491d;
+}
 </style>
