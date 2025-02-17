@@ -15,6 +15,11 @@
                 which is also built with web technologies (HTML, CSS, jQuery, and jQuery UI), also PWA.
             </p>
 
+            <hr>
+
+            <h3>Others</h3>
+            <p>Back-end programmer at Agroconnect Cabuyao Capstone Project</p>
+
             <OGCard 
                 title="Artifact RNG PWA"
                 description="Generate random artifact stat or input your own sub-stats to 'guess' outcomes. Available as a Progressive Web App (PWA)."
@@ -59,6 +64,10 @@ export default {
 .interests a {
     color: #3498db;
     text-decoration: none;
+}
+
+hr {
+    margin: 10px 0;
 }
 
 .interests a:hover {
